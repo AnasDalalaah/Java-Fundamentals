@@ -1,4 +1,4 @@
-# java-fundamentals
+# Java-Fundamentals
 
 ## Files contained within the repo:
 
