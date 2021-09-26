@@ -1,5 +1,5 @@
-# data-structures-and-algorithms-401
+# java-fundamentals
 
-## 1. array-reverse :
+## Files contained within the repo:
 
-[array-reverse](./array-reverse/README.md)
+### 1. Basics within the repo.
