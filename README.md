@@ -1,5 +1,11 @@
-# data-structures-and-algorithms-401
+# Java-Fundamentals
 
-## 1. array-reverse :
+# Author: Anas Dalalah 
 
-[array-reverse](./array-reverse/README.md)
+
+## Basics
+
+- `pluralize(String word, int number)`
+- `flipNHeads(int n)`
+- `clock()`
+
