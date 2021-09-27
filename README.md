@@ -1,5 +1,10 @@
 # Java-Fundamentals
 
-## Files contained within the repo:
+# Author: Anas Dalalah 
 
-### 1. Basics within the repo.
+
+## Methods
+
+- `pluralize(String word, int number)`
+- `flipNHeads(int n)`
+- `clock()`
