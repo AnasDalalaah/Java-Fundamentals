@@ -5,15 +5,35 @@ package inheritance;
 
 public class Library {
     public static void main(String[] args) {
-        Restaurant firstRes = new Restaurant("InDoor");
-        firstRes.setStars(3);
-        firstRes.setPrice(4);
-        firstRes.addReview("Amazing Restaurant" , "Anssam", 5);
-        firstRes.addReview("Not Good" , "Anas", 1);
-        firstRes.addReview("Not Good" , "Anas", 1);
-        firstRes.addReview("Normal" , "Anssam", 2);
-//        System.out.println(firstRes.getReview());
+        Restaurant addRestaurant = new Restaurant("InDoor");
+        addRestaurant.setStars(3);
+        addRestaurant.setPrice(4);
+        addRestaurant.addReview("Amazing Restaurant" , "Anas", 5);
+        addRestaurant.addReview("Not Good" , "Anssam", 1);
+        addRestaurant.addReview("Not Good" , "Anssam", 1); // Try duplication
+        addRestaurant.addReview("Normal" , "Gaith", 2);
+        System.out.println(addRestaurant);
 
-        System.out.println(firstRes);
+        Shop addShop = new Shop("Shoneze" , "Nice place");
+        addShop.setStars(3);
+        addShop.setPrice(4);
+        addShop.addReview("Amazing Shop" , "Anas", 5);
+        addShop.addReview("Not Good" , "Anssam", 1);
+        addShop.addReview("Normal" , "Gaith", 3);
+        System.out.println(addShop);
+
+        /*  Adding a new Theater WITHOUT movies review*/
+        Theater addTheater = new Theater("Grand cinema");
+        addTheater.setStars(3);
+        addTheater.addMovie("Thor");
+        addTheater.addMovie("Star wars");
+        addTheater.addMovie("Star wars");   // Try duplication
+        addTheater.removeMovie("Thor");
+        addTheater.addMovie("Gladiator");
+        addTheater.addMovieWithReview("WOW" , "Anas", 5 , "Star wars");
+        addTheater.addMovieWithReview("WOW" , "Anas", 5 , "Star wars"); // Try duplication
+        addTheater.addReview("Not Good" , "Anssam", 2);
+        addTheater.addMovieWithReview("Normal" , "Gaith", 3, "Thor");
+        System.out.println(addTheater);
     }
 }
